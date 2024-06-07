@@ -6,7 +6,7 @@ public final class Verite extends Affirmation {
     }
 
     @Override
-    public boolean estVraie(String texte) {
+    public boolean estVraie() {
         return true;
     }
 }

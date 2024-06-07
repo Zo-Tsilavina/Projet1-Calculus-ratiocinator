@@ -6,7 +6,7 @@ public final class Mensonge extends Affirmation {
     }
 
     @Override
-    public boolean estVraie(String texte) {
+    public boolean estVraie() {
         return false;
     }
 }

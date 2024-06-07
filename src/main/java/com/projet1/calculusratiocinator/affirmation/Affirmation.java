@@ -9,5 +9,5 @@ public sealed abstract class Affirmation permits
         Mensonge, Verite{
     protected String texte;
 
-    public abstract boolean estVraie(String texte);
+    public abstract boolean estVraie();
 }
